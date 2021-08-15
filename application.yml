@@ -1,12 +1,9 @@
 spring:
-  profiles: 
-    active: dev
+    profiles:
+        active: dev
 ---
 spring:
-  profiles: dev
-    application:
-      name: springcloud-dev
-  cloud:
-    config:
-      server:
-        default-label: main
+    profiles: dev
+---
+spring:
+    profiles: test
